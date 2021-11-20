@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/tailwind.css" rel="stylesheet" />
+    <title>Tailwind App</title>
+  </head>
+  <body class="bg-gray-200">
+    <div class="relative">
+      <div
+        id="header"
+        class="
+          fixed
+          text-white
+          flex
+          items-center
+          justify-between
+          z-20
+          w-full
+          bg-blue-600
+          px-4
+          md:px-16
+          lg:px-20
+          xl:px-80
+          py-6
+        "
+      >
+        <div>Menu</div>
+        <div class="font-bold">My Cool App</div>
+        <div
+          id="controls"
+          class="
+            rounded-full
+            bg-gray-800 bg-opacity-50
+            px-2
+            py-1
+            flex
+            justify-between
+          "
+        >
+          <div class="mx-2">&#9830;</div>
+          <div class="mx-2">|</div>
+          <div class="mx-2">&#9737;</div>
+        </div>
+      </div>
+      <div id="background" class="h-screen w-full absolute">
+        <div class="h-2/5 bg-blue-600 rounded-xl">&nbsp;</div>
+      </div>
+      <div id="ui" class="relative px-8 p-4 pt-24">
+        <div id="search-section" class="flex items-center">
+          <div
+            id="search-bar"
+            class="
+              flex
+              bg-white
+              rounded-full
+              shadow-sm
+              px-3
+              justify-between
+              items-center
+              w-5/6
+            "
+          >
+            <div class="flex text-gray-500 items-center">
+              <div class="mx-4 text-2xl transform rotate-180">&#9740;</div>
+              <div>What are you looking for?</div>
+            </div>
+            <div class="px-4 text-blue-600 border-l border-gray-300 py-3">
+              Leading
+            </div>
+          </div>
+          <div class="m-4 relative">
+            <div class="text-4xl">&#9993;</div>
+            <div
+              class="
+                absolute
+                -top-1
+                -right-2
+                bg-red-700
+                text-white text-xs
+                w-6
+                h-6
+                flex
+                justify-center
+                items-center
+                border
+                rounded-full
+              "
+            >
+              3
+            </div>
+          </div>
+        </div>
+        <ul id="tags" class="flex text-white">
+          <li class="mr-2">Sports</li>
+          <li
+            class="mx-2 border rounded-full border-gray-300 px-1 text-gray-300"
+          >
+            Soccer
+          </li>
+          <li
+            class="mx-2 border rounded-full border-gray-300 px-1 text-gray-300"
+          >
+            Basketball
+          </li>
+          <li
+            class="mx-2 border rounded-full border-gray-300 px-1 text-gray-300"
+          >
+            Tennis
+          </li>
+        </ul>
+        <div id="shortcuts" class="my-4 flex justify-around">
+          <div class="flex flex-col text-white items-center">
+            <div class="text-4xl">&#9743;</div>
+            <div class="uppercase">heading</div>
+            <div class="text-sm text-gray-300">subheading</div>
+          </div>
+          <div class="flex flex-col text-white items-center">
+            <div class="text-4xl">&#9743;</div>
+            <div class="uppercase">heading</div>
+            <div class="text-sm text-gray-300">subheading</div>
+          </div>
+          <div class="flex flex-col text-white items-center">
+            <div class="text-4xl">&#9743;</div>
+            <div class="uppercase">heading</div>
+            <div class="text-sm text-gray-300">subheading</div>
+          </div>
+        </div>
+        <div
+          id="menu"
+          class="bg-white shadow rounded-lg p-4 grid grid-cols-4 gap-8"
+        >
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="
+                bg-blue-200
+                rounded-xl
+                w-12
+                h-12
+                flex
+                justify-center
+                items-center
+                text-2xl
+              "
+            >
+              &#9731;
+            </div>
+            <div class="uppercase">Heading</div>
+          </div>
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          excepturi facilis a! Sapiente dolorem aperiam voluptas sequi, culpa
+          minima, quod iste tenetur ratione ex labore perferendis id tempore.
+          Quidem, aliquid?
+        </div>
+      </div>
+    </div>
+    <!-- <div id="app"></div> -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
